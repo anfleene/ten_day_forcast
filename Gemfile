@@ -1,10 +1,15 @@
 source 'http://rubygems.org'
+source 'http://gems.github.com'
+source 'http://gemcutter.org'
+
 
 gem 'rails', '3.0.0.beta4'
 
 gem 'sqlite3-ruby', :require => 'sqlite3', :group => :development
 
 gem 'unicorn'
+
+gem 'heroku'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -14,7 +19,7 @@ gem "geokit"
 gem "jdpace-weatherman", :require => 'weather_man'
 
 # To use debugger
-gem 'ruby-debug'
+gem 'ruby-debug', :group => :development
 
 # Bundle the extra gems:
 # gem 'bj'
