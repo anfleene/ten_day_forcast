@@ -7,9 +7,9 @@ gem 'rails', '3.0.0.beta4'
 
 gem 'sqlite3-ruby', :require => 'sqlite3', :group => :development
 
-# gem 'unicorn'
-# 
-# gem 'heroku'
+gem 'unicorn' :group => :development
+
+gem 'heroku'
 
 # Deploy with Capistrano
 # gem 'capistrano'
